@@ -1,0 +1,117 @@
+@font-face {
+          font-family: myH1;
+          src: url(/fonts/FontsFree-Net-Poppins-Bold.ttf);
+}
+@font-face {
+          font-family: myH2;
+          src: url(/fonts/FontsFree-Net-Poppins-ExtraBold.ttf);
+}
+@font-face {
+          font-family: myParagraph;
+          src: url(/fonts/FontsFree-Net-Poppins-Light.ttf);
+}
+@font-face {
+          font-family: myH3;
+          src: url(/fonts/FontsFree-Net-Poppins-Light.ttf);
+}
+
+h1 {      /* The Company */ 
+          font-family: myH1;
+          font-size: 43pt ;
+          color: #2B2E39;
+          font-weight: bold;
+          font-weight: extra bold;
+         
+}
+
+h2 {      /* Shipping Time Calculator */ 
+          font-family: myH2;
+          font-size: 85pt ;
+          color: #2B2E39;
+
+}
+
+h3 {      /* Your Estimated Shipping Date Is <...> */
+          font-family: myH3;
+          font-size: 29pt;
+          color: #2B2E39;
+          display: inline;
+}
+
+p {       /* Your Estimated Shipping Time Is */ 
+          font-family: myParagraph;
+          font-size: 27ppt;
+          color: #2B2E39;
+          display: inline;
+          margin-bottom: 500px;
+
+
+
+}
+
+body {    background: rgb(172,110,255);
+          background: linear-gradient(60deg, rgba(172,110,255,1) 0%, rgba(36,20,219,1) 100%);
+          margin-left: 175px;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 100vh;
+          background-size: cover;
+         
+          
+                 
+}
+
+
+
+
+
+[type="date"] {
+          background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+        }
+        [type="date"]::-webkit-inner-spin-button {
+          display: none;
+        }
+        [type="date"]::-webkit-calendar-picker-indicator {
+          opacity: 0;
+        }
+
+        .select-dropdown,
+        .select-dropdown * {
+                  display: inline;
+                  margin: 0;
+                  padding: 0;
+                  position: relative;
+                  box-sizing: border-box;
+        }
+        .select-dropdown {
+                  position: relative;
+                  background-color: #E6E6E6;
+                  border-radius: 4px;
+        }
+        .select-dropdown select {
+                  font-size: 1rem;
+                  font-weight: normal;
+                  max-width: 100%;
+                  padding: 8px 24px 8px 10px;
+                  border: none;
+                  background-color: transparent;
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                  appearance: none;
+        }
+        .select-dropdown select:active, .select-dropdown select:focus {
+                  outline: none;
+                  box-shadow: none;
+        }
+        .select-dropdown:after {
+                  content: "";
+                  position: absolute;
+                  top: 50%;
+                  right: 8px;
+                  width: 0;
+                  height: 0;
+                  margin-top: -2px;
+                  border-top: 5px solid #aaa;
+                  border-right: 5px solid transparent;
+                  border-left: 5px solid transparent;
+        }

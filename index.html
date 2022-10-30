@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+          
+<head>    <title>Shipping Website</title>
+          <link rel="stylesheet" href="index.css">
+</head>
+<body>
+          <h1>The Company</h1>
+          <h2>Shipping Time <br> Calculator</h2>
+          
+
+
+          <label for="dateofbirth"></label>
+          <input id="datepicker" type="date" name="dateofbirth" id="dateofbirth"></input>
+
+          <datalist id="mylist">
+                    <option value="Cotton">
+                    <option value="Linen">
+          </datalist>
+
+          <input type="text" name="productstyle" placeholder="Product Style" id="productstyle" list="mylist"> 
+
+          <input type="number" class="Quantity" id="productnumber"></input>
+
+
+          <button class="button" id="calculateBtn">Calculate</button>
+
+          <br>
+          <br>
+          
+          <p id="resultText">Your Estimated Shipping Time Is <h3>26 September 2023</h3></p>
+
+          <script src="script.js" defer></script>  
+</body>
+</html>
